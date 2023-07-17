@@ -1,0 +1,22 @@
+﻿<Application x:Class="WpfSoundApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfSoundApp"
+             StartupUri="MainWindow.xaml">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/CloseButtonTheme.xaml"/>
+                <ResourceDictionary Source="Themes/HideButtonTheme.xaml"/>
+                <ResourceDictionary Source="Themes/MenuButtonTheme.xaml"/>
+                <ResourceDictionary Source="Themes/CustomButtonTheme.xaml"/>
+                <ResourceDictionary Source="Themes/PanelButtonTheme.xaml"/>
+                <ResourceDictionary Source="Themes/RightSideButtonTheme.xaml"/>
+                <ResourceDictionary Source="Themes/DarkTabTheme.xaml"/>
+                <ResourceDictionary Source="Themes/FontTheme.xaml"/>
+                <ResourceDictionary Source="Themes/ButtonTextStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="TextBlock" x:Key="FontTheme">
+        <Setter Property="FontSize" Value="22"/>
+        <Setter Property="FontFamily" Value="/WpfSoundApp;component/Fonts/#Appetite" />
+        <Setter Property="Foreground" Value="DarkGray" />
+        <Setter Property="Margin" Value="10" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="TextAlignment" Value="Left" />
+        <Setter Property="Padding" Value="10" />
+        <Setter Property="FontStyle" Value="Italic"/>
+        <Setter Property="Background" Value="Transparent" />
+    </Style>
+</ResourceDictionary>
